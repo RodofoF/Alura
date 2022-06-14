@@ -1,0 +1,19 @@
+@media screen and (max-width:360px) {
+    .botoes {
+        display:block;
+    }
+    .alerta {
+        width:100%;
+    }
+    .criptografar .descriptografar  {
+        width:343px;
+
+    }
+    .boxCopiarTablet{
+        width:100%;
+        display: inline;
+    }
+    .box1{
+        margin-bottom: 200px;
+    }
+}
