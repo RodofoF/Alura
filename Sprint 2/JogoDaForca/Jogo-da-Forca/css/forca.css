@@ -1,0 +1,176 @@
+/* @import url(./forcaTablet.css); */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 90vh;
+    margin-top: 10px;
+    background-color: rgba(243, 245, 252, 1);
+}
+
+.container {
+    /* Centralizando todo o container */
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    /* Um elemento por linha */
+    flex-wrap: wrap;
+    /* Garante um elemente embaixo do outro */
+    flex-direction: column;
+}
+
+.imagem {
+    background-image:url(../img/forca.png);
+    /* Necessita de um tamanho para fixar a imagem */
+    width: 400px;
+    height: 450px;
+    background-repeat: no-repeat;
+}
+
+.palavra-secreta {
+    /* Mudando a orientação de colunm para row */
+    display:flex;
+    flex-direction:row;
+    /*  Outras configurações */
+    font-size:1em;
+    margin-top: 30px;
+}
+
+.letras {
+    width:16px;
+    text-align: center;
+    /* Inserindo os traços em cada letra da palabra com border-botton */
+    border-bottom: 2px solid black;
+    padding:2px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.teclado {
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction: column;
+    margin: 30px 0 30px 0;
+}
+.teclas button {
+    width: 30px;
+    height:30px;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 8px dimgray;
+    border-radius: 5px;
+    border: 1px solid dimgray;
+    font-weight: bold;
+    cursor: pointer;
+}
+.teclas button:hover, .botoes button:hover {
+    transform: scale(1.3);
+}
+.botoes button {
+    width: 150px;
+    height:30px;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 8px dimgray;
+    border-radius: 5px;
+    border: 1px solid dimgray;
+    font-weight: bold;
+    cursor: pointer;
+}
+.categoria{
+    margin-top:10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+/* Responsive */
+
+@media ( min-width: 341px){
+    .teclas button {
+        width: 30px;
+        height:30px;
+    }
+    .botoes button {
+        width: 150px;
+        height:30px;
+        
+    }
+    .categoria{
+        size:1.3em;
+    }
+}
+    
+/* @media ( min-width: 381px){
+    .teclas button {
+        width: 0px;
+        height:40px;
+    }
+    .botoes button {
+        width: 170px;
+        height:50px;
+        
+    }
+    .categoria{
+        size:1.5em;
+    }
+    .palavra-secreta {
+        font-size: 1.3em;
+    }
+    .letras {
+        width:18px;
+    }
+} */
+@media ( min-width: 600px){
+    .teclas button {
+        width: 60px;
+        height:60px;
+        font-size:30px
+    }
+    .botoes button {
+        width: 285px;
+        height:60px;
+        font-size:30px
+        
+    }
+    .categoria{
+        size:1.6em;
+    }
+    .palavra-secreta {
+        font-size: 1.6em;
+    }
+    .letras {
+        width:20px;
+    }
+}
+@media ( min-width: 769px){
+    .teclas button {
+        width: 80px;
+        height:80px;
+        /* padding:30px; */
+        /* background-color: red; */
+        /* font-size: 30px; */
+        text-align: center;
+        font-size: 50px;
+    }
+    .botoes button {
+        width: 375px;
+        height:80px;
+        font-size: 50px;
+        
+        
+    }
+    .categoria{
+        font-size:3em;
+    }
+    .palavra-secreta {
+        font-size: 3em;
+    }
+    .letras {
+        width:30px;
+    }
+}
+    

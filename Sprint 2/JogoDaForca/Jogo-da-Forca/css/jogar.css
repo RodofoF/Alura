@@ -1,0 +1,20 @@
+.main {
+    /* display:flex; */
+}
+
+canvas {
+    background-color: white;
+    margin: 5% 15% 5% 15%;
+}
+.box-jogar{
+    /* width:1200px; */
+    height:auto;
+    margin: 0 15% 5% 15%;
+    padding-left: 15%;
+
+}
+.btn-novo .btn-desistir {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
