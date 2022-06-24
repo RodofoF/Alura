@@ -1,0 +1,20 @@
+.cabecalho{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+
+    padding-top: 2rem;
+}
+.cabecalho__navegacao ul{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+    width: 800px;
+}
+.cabecalho__link{
+    font-weight: 500;
+}
+.cabecalho__link-email{
+    font-weight: 700;
+}

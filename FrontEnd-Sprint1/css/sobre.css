@@ -1,0 +1,19 @@
+.sobre{
+    background-color: rgba(234, 242, 253, 1);
+}
+.sobre__titulo{
+    padding-top: 4rem;
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+.sobre__texto{
+    /* max-width: 761px; */
+    padding-top: 1rem;
+    text-align: justify;
+}
+.sobre__assinatura{
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+
+}

@@ -1,0 +1,36 @@
+.formacao {
+    background-color: rgba(234, 242, 253, 1);
+    margin-top: 5.5rem;
+}
+.formacao__grid-pai{
+    display:flex;
+    justify-content: space-between;
+}
+.formacao__titulo{
+    font-size: 2rem;
+    font-weight:700;
+    text-align:center;
+    padding-top:5.5rem;
+    padding-bottom: 2.2rem;
+}
+
+.formacao__grid-img{
+    background-color:white;
+    width: 368px;
+    height: 286px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.formacao__grid-texto{
+    font-size: 1.5rem;
+    font-weight:700;
+    padding-top: .5rem;
+
+}
+.formacao__grid-subtexto{
+    font-size: 1rem;
+    font-weight:500;
+    padding-top: .5rem;
+    padding-bottom: 5.5rem;
+}

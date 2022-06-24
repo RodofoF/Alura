@@ -1,0 +1,56 @@
+.contato__grid-pai{
+    padding-left:1rem;
+}
+.contato{
+    display:flex;
+    justify-content:center;
+
+    background-color: #EAF2FD;
+
+    padding: 8rem 0 4rem 0;
+}
+.contato__titulo{
+    font-size: 2rem;
+    font-weight:700;
+
+}
+
+.contato__descricao-linha1{
+    margin-top: .5rem;
+}
+.contato__descricao-linha2{
+    margin-bottom: .5rem;
+}
+.contato__formulario-grid-form{
+    display:flex;
+    flex-direction:column;
+    font-size:.75rem;
+    font-weight: 400rem;
+    background-color:white;
+    margin: 2rem 0 2rem 0;
+    height:3.5rem;
+}
+.contato__formulario-msg{
+    height:8rem;
+}
+.contato__contato-input{
+    height:100%;
+    border:none;
+}
+.contato__contato-descricao {
+    padding-left: .5rem;
+    padding-top: 0.5rem;
+    color: #A2A2A2;
+}
+.contato__contato-text{
+    height:100%;
+    border:none;
+}
+.contato__botao-enviar{
+    background-color: #2A7AE4;
+    padding:1rem;
+    margin-top:3rem;
+    color: #fff;
+    width:calc(100% - 70%);
+    text-align: center;
+}

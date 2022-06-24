@@ -1,0 +1,35 @@
+/* CSS com campo de Skills e Hobbies */
+
+.skills__titulo, .hobbies__titulo{
+    font-size: 2rem;
+    font-weight:700;
+    text-align:center;
+    padding-top:2rem;
+    padding-bottom: 2rem;
+}
+.skills__grid, .hobbies__grid {
+    background-color:white;
+    width: 176px;
+    height: 174px;
+    display:flex;
+    align-items:flex-start;
+    justify-content: flex-end;
+    flex-direction:column;
+    /* margin-right: 1rem; */
+}
+.skills__grid-pai, .hobbies__grid-pai {
+    display: flex;
+    justify-content: space-between;
+}
+.skills__grid__imagem, .hobbies_grid__imagem {
+    padding-left:1rem;
+    padding-bottom: .5rem;
+}
+.skills__grid-texto, .hobbies__grid-texto {
+    font-weight: 700;
+    padding:1rem;
+}
+
+.hobbies__titulo{
+    margin-top: 5rem;
+}

@@ -1,0 +1,43 @@
+.experiencia__titulo{
+    font-size: 2rem;
+    font-weight:700;
+    text-align:center;
+    padding-top:5.5rem;
+    padding-bottom: 2.2rem;
+}
+.experiencia__grid-pai{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom:3.5rem ;
+}
+.experiencia__descricao{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+
+}
+.experiencia__descricao-titulo{
+    font-size: 1.5rem;
+    font-weight:700;
+
+}
+.experiencia__descricao-subtitulo{
+    font-weight: 500;
+    padding: .5rem 0;
+}
+.experiencia__botao-grid{
+    display:flex;
+}
+.experiencia__botao-repositorio{
+    border: 1px solid #2A7AE4;
+    font-weight: 400;
+    padding:1rem;
+    margin-right: .5rem;
+    color:#2A7AE4;
+}
+.experiencia__botao-demo{
+    background-color: #2A7AE4;
+    font-weight: 400;
+    padding:1rem;
+    color: #fff;
+}
