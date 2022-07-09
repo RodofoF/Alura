@@ -1,0 +1,36 @@
+*{
+    font-family: 'Raleway',sans-serif;
+}
+.container{
+    padding-left: 9.5rem;
+    padding-right: 9.5rem;
+}
+.button1{
+    text-align: center;
+    padding: 1.5em;
+    color: #2A7AE4;
+    border: 1px solid #2A7AE4;
+    font-weight: 400;
+    width: 8rem;
+    height: 1rem;
+}
+.button2{
+    background-color: #2A7AE4;
+    color:#fff;
+    padding:1rem;
+    font-weight: 400;
+    width: 8.1rem;
+    text-align:center;
+}
+@media screen and (max-width:1200px){
+    .container{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+@media screen and (max-width:768px){
+    .container{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

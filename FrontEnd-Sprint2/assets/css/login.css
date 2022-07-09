@@ -1,0 +1,49 @@
+.login{
+    display:flex;
+    justify-content:space-around;
+    padding: 5.75rem 0;
+    background-color: #E5E5E5;
+    
+}
+.login__grid{
+    width:423px;
+}
+.login__titulo {
+    font-size:1.5rem;
+    font-weight:700;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+.login__form-email{
+    padding-bottom:1.5rem;
+}
+.login__form-email-input, .login__form-senha-input{
+    width:100%;
+    height:3.8rem;
+    outline: none;
+    border: none;
+}
+
+.login__form-senha{
+    padding-bottom:1.5rem;
+    
+}
+.login__form-button{
+    width:97%;
+}
+.login__form-email-label{
+    position:absolute;
+    color: #A2A2A2;
+    pointer-events: none;
+    padding-top:1.5rem;
+    padding-left: .5rem;
+    transition: 0.5s;
+}
+.login__form-senha-label{
+    position:absolute;
+    color: #A2A2A2;
+    pointer-events: none;
+    padding-top:1.5rem;
+    padding-left: .5rem;
+    transition: 0.5s;
+}

@@ -1,0 +1,49 @@
+.adicionar{
+    display:flex;
+    justify-content:space-around;
+    padding: 5.75rem 0;
+    background-color: #E5E5E5;
+    
+}
+.adicionar__grid{
+    width:559px;
+}
+.adicionar__form-url, .adicionar__form-categoria,.adicionar__form-nome, .adicionar__form-preco, .adicionar__form-descricao,.login__form-button{
+    padding-bottom:1rem;
+}
+.adicionar__titulo {
+    font-size:2rem;
+    font-weight:700;
+    /* text-align: center; */
+    padding-bottom: 1.5rem;
+}
+.adicionar__form-url-input, .adicionar__form-categoria-input,.adicionar__form-nome-input,
+.adicionar__form-preco-input
+{
+    width:100%;
+    height:3.5rem;
+    outline: none;
+    border: none;
+}
+.adicionar__form-descricao-input{
+    width:100%;
+    height:5rem;
+    outline: none;
+    border: none;
+}
+
+.adicionar__form-button{
+    width:97.5%;
+}
+.adicionar__form-url-label, .adicionar__form-categoria-label,.adicionar__form-nome-label
+,.adicionar__form-preco-label, .adicionar__form-descricao-label {
+    position:absolute;
+    color: #A2A2A2;
+    pointer-events: none;
+    /* padding-top:1.5rem; */
+    padding-top:0px;
+    padding-left: .5rem;
+    transition: 0.5s;
+}
+
+

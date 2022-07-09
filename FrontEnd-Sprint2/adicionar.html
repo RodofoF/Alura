@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/header.css">
+    <link rel="stylesheet" href="./assets/css/banner.css">
+    <link rel="stylesheet" href="./assets/css/produtos.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/adicionar.css">
+
+    <title>AluraGeek | Adicionar</title>
+</head>
+<body>
+    <header class="header container">
+        <div class="header__search">
+            <a href="index.html"><h1 class="header__logo"><img  src="./assets/img/Logo.svg"></h1></a>
+            <div class="header__search-grid">
+                <label for="search"></label>
+                <input type="text" name="search" id="search" placeholder="O que deseja encontrar?">
+                <img src="./assets/img/lupa.png" class="header__lupa">
+            </div>
+        </div>
+        <nav class="header__nav">
+            <a href="login.html">
+                <div class="header__login">
+                    <p class="button1">Menu administrador</p>
+                </div>
+            </a>
+        </nav>
+    </header>
+   <section class="adicionar">
+    <div class="adicionar__grid">
+        <h2 class="adicionar__titulo">Adicionar novo produto</h2>
+        <form action="" class="adicionar__form" method="#">
+            <div class="adicionar__form-url">
+                <label for="adicionar__form-url-input" class="adicionar__form-url-label">Escreva a url do produto</label>
+                <input type="url" class="adicionar__form-url-input" id="adicionar__form-url-input" name="url">
+            </div>
+            <div class="adicionar__form-categoria">
+                <label for="adicionar__form-categoria-input" class="adicionar__form-categoria-label">Categoria</label>
+                <input type="text" class="adicionar__form-categoria-input" id="adicionar__form-categoria-input" name="categoria">
+            </div>
+            <div class="adicionar__form-nome">
+                <label for="adicionar__form-nome-input" class="adicionar__form-nome-label">Nome do produto</label>
+                <input type="text" class="adicionar__form-nome-input" id="adicionar__form-nome-input" name="nome">
+            </div>
+            <div class="adicionar__form-preco">
+                <label for="adicionar__form-preco-input" class="adicionar__form-preco-label">Preço do produto</label>
+                <input type="text" class="adicionar__form-preco-input" id="adicionar__form-preco-input" name="preco">
+            </div>
+            <div class="adicionar__form-descricao">
+                <label for="adicionar__form-descricao-input" class="adicionar__form-descricao-label">Descrição do produto</label>
+                <input type="text" class="adicionar__form-descricao-input" id="adicionar__form-descricao-input" name="descricao">
+            </div>
+            <div class="adicionar__form-button">
+                <p class="button2 adicionar__form-button">Adicionar produto</p>
+            </div>
+        </form>
+    </div>  
+   </section>
+   <section class="produtos container">
+    <div class="produtos__titulo-container">
+        <h3 class="produtos__titulo-texto">Ultimos produtos</h3>
+        <!-- <div class="button2">
+            <a href="adicionar.html" class="produtos__adicionar"><p class="">Adicionar produto</p></a>
+        </div> -->
+    </div>
+    <div class="produtos__grid-flex">
+        <div class="produtos__grid">
+            <img src="./assets/img/starwars (1).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>
+        <div class="produtos__grid">
+            <img src="./assets/img/starwars (2).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>
+        <div class="produtos__grid">
+            <img src="./assets/img/starwars (3).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>
+        <div class="produtos__grid">
+            <img src="./assets/img/starwars (4).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>
+        <div class="produtos__grid">
+            <img src="./assets/img/starwars (5).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>
+        <div class="produtos__grid">
+            <img src="./assets/img/starwars (6).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>                           
+        <div class="produtos__grid">
+            <img src="./assets/img/consoles (1).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>
+        <div class="produtos__grid">
+            <img src="./assets/img/consoles (2).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>
+        <div class="produtos__grid">
+            <img src="./assets/img/consoles (3).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>
+        <div class="produtos__grid">
+            <img src="./assets/img/consoles (4).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>
+        <div class="produtos__grid">
+            <img src="./assets/img/consoles (5).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>
+        <div class="produtos__grid">
+            <img src="./assets/img/consoles (6).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>                           
+        <div class="produtos__grid">
+            <img src="./assets/img/diversos (1).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>
+        <div class="produtos__grid">
+            <img src="./assets/img/diversos (2).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>
+        <div class="produtos__grid">
+            <img src="./assets/img/diversos (3).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>
+        <div class="produtos__grid">
+            <img src="./assets/img/diversos (4).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>
+        <div class="produtos__grid">
+            <img src="./assets/img/diversos (5).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>
+        <div class="produtos__grid">
+            <img src="./assets/img/diversos (6).png" alt="" class="produtos__imagem">
+            <p class="produtos__legenda">Produto XYZ</p>
+            <p class="produtos__preco">R$ 60,00</p>
+            <p class="produtos__link">Ver produto</p>
+        </div>                           
+    </div>
+</section>
+    <footer class="footer">
+        <section class="footer__grid container">
+            <h1 class="footer__logo"><img  src="./assets/img/Logo.svg"></h1>
+            <ul class="footer__link">
+                <li class="footer__links"><a href="#">Quem somos</li>
+                <li class="footer__links"><a href="#">Politica de privacidade</li>
+                <li class="footer__links"><a href="#">Programa de fidelidade</li>
+                <li class="footer__links"><a href="#">Nossas lojas</li>
+                <li class="footer__links"><a href="#">Quero ser franqueado</li>
+                <li class="footer__links"><a href="#">Anuncie aqui</li>
+            </ul>
+            <form action="" class="footer__formulario">
+                <p class="footer__formulario-titulo">Fale conosco</p>
+                <div class="footer__formulario-nome form__grid">
+                    <label for="footer__formulario-nome-input" class="footer__label">Nome</label>
+                    <input class="footer__formulario-nome-input" type="text" name="" id="footer__formulario-nome-input" placeholder="">
+                </div>
+                <div class="footer__fomulario-mensagem form__grid">
+                    <label for="footer__fomulario-mensagem-input" class="footer__label">Escreva a sua mensagem</label>
+                    <textarea name="" id="footer__fomulario-mensagem-input" cols="30" rows="10" class="footer__fomulario-mensagem-input" placeholder=""></textarea>
+                </div>
+                <div class="footer__formulario-button">
+                    <div class="button2">
+                        Enviar mensagem
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section class="footer__developer">
+            <p class="">Desenvolvido por Rodolfo Ferreira Fernandes</p>
+            <p class="">2022</p>
+        </section>
+    </footer>
+    <!-- <script src="./script/script.js"></script> -->
+    <script src="./script/adicionar.js"></script>
+</body>
+</html>

@@ -1,0 +1,96 @@
+.footer{
+    background-color: #EAF2FD;
+}
+.footer__grid{
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.footer__logo-hidden{
+    display: none;
+}
+.footer__link{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer__formulario-titulo{
+    font-weight: 700;
+}
+.footer__formulario-nome{
+    padding-top:.5rem;
+    padding-bottom:1rem;
+}
+
+.footer__formulario-nome-input{
+    width:35rem;
+    height:2.5rem;
+    border:none;
+    outline:none;
+}
+.footer__formulario-mensagem{
+    padding-top:1rem;
+}
+.footer__fomulario-mensagem-input{
+    width:35rem;
+    height:4rem;
+    border:none;
+    outline:none;
+}
+.footer__formulario-button{
+    padding-top:.5rem;
+}
+.footer__developer{
+    text-align:center;
+    background-color:#FFFFFF;
+    padding:2rem 0;
+}
+.form__grid{
+    display:flex;
+    flex-direction:column;
+}
+.footer__label{
+    position:absolute;
+    padding-left:.5rem;
+    color:#A2A2A2;
+    background:#FFFFFF;
+}
+@media screen and (max-width:1200px){
+    .footer__logo {
+        display:none;
+    }
+    .footer__logo-hidden{
+        display: inherit;
+        padding-right: 1rem;
+    }
+    .footer__formulario-nome-input{
+        width:434px;
+        height:2.5rem;
+    }
+    .footer__fomulario-mensagem-input{
+        width: 433px;;
+        height:4rem;
+    }
+    .footer__label{
+        /* width: 433px; */
+    }
+
+    .footer__grid{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer__logo-hidden{
+        display: flex;
+        padding-right: 0rem;
+        align-self: center;
+    }
+    .footer__links{
+        padding-top: 1rem;
+    }
+    .footer__formulario-titulo{
+        padding-top: 1.5rem;
+        font-size: 1.5rem;
+    }
+}

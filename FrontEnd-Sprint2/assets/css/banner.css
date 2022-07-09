@@ -1,0 +1,28 @@
+.banner{
+    background-image: url('../img/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:352px;
+    width: 100vw;
+    display:flex;
+    align-items:flex-end;
+    padding-bottom:1.5rem;
+}
+.banner__chamada{
+    font-size: 3.25rem;
+    font-weight:700;
+    color:#fff;
+}
+.banner__subtitle{
+    color:#fff;
+    font-size: 1.5rem;
+    margin-top:1rem;
+}
+.banner__button{
+    margin-top:1rem;
+}
+@media screen and (max-width:768px){
+    .banner{
+        
+    }
+}
